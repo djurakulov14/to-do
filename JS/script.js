@@ -156,15 +156,15 @@ form.onsubmit = (e) => {
     reload(todos)
 }
 
-const openModal = () => {
-    document.querySelector('.modal_bg').style.display = 'block'
-    document.querySelector('.modal').style.display = 'block'
-    setTimeout(() => {
-        document.querySelector('.modal_bg').style.opacity = 1
-        document.querySelector('.modal').style.opacity = 1 
-    }, 100);
+// const openModal = () => {
+//     document.querySelector('.modal_bg').style.display = 'block'
+//     document.querySelector('.modal').style.display = 'block'
+//     setTimeout(() => {
+//         document.querySelector('.modal_bg').style.opacity = 1
+//         document.querySelector('.modal').style.opacity = 1 
+//     }, 100);
     
-}
+// }
 // const closeModal = () => {
 //     item.task = change_inp_value.value
 //     document.querySelector('.modal_bg').style.opacity = 0
@@ -176,14 +176,14 @@ const openModal = () => {
 //     reload(arr)
 // }
 
-const cancelModal = () =>{
-    document.querySelector('.modal_bg').style.opacity = 0
-    document.querySelector('.modal').style.opacity = 0
-    setTimeout(() => {
-        document.querySelector('.modal_bg').style.display = 'none'
-        document.querySelector('.modal').style.display = 'none'
-    }, 100);
-}
+// const cancelModal = () =>{
+//     document.querySelector('.modal_bg').style.opacity = 0
+//     document.querySelector('.modal').style.opacity = 0
+//     setTimeout(() => {
+//         document.querySelector('.modal_bg').style.display = 'none'
+//         document.querySelector('.modal').style.display = 'none'
+//     }, 100);
+// }
 
 reload(todos)
 
